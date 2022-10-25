@@ -48,7 +48,7 @@ allprojects {
 }
 
 artifactory {
-    contextUrl = "${artifactory_contextUrl}"   //The base Artifactory URL if not overridden by the publisher/resolver
+    contextUrl = http://52.14.220.148:8081/artifactory   //The base Artifactory URL if not overridden by the publisher/resolver
     publish {
         repository {
             repoKey = 'testfss'
