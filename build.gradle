@@ -12,6 +12,10 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven {
+          url"http://artifactory.gradle:8081/artifactory/jcenter"
+          allowInsecureProtocol = true
+          }
 }
 
 dependencies {
